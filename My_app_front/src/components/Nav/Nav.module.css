@@ -1,0 +1,32 @@
+.containerNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 185vh;
+    background-image: url(/src/components/assets/banner_rym.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 17vh;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    margin-right: 3%;
+}
+
+.btnNav{
+   position: relative;
+   display: inline-block;
+    padding: 10px 20px;
+    color: #ffe6b1;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btnNav:hover{
+    background: #72f355;
+    box-shadow: 0 0 10px #72f355, 0 0 40px #72f355, 0 0 80px #72f355;
+}

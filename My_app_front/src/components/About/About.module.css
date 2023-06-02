@@ -1,0 +1,17 @@
+.aboutContainer {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 89, 244);
+    background-image: url(/src/components/assets/Night.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 85%;
+    font-size: 24px;
+    padding: 40px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-left: 6%;
+}

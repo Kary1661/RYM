@@ -1,0 +1,26 @@
+.inpt{
+    border-radius: 5px;
+    box-shadow: 0 5px 2px rgb(93, 105, 116);
+    margin-left: 5px;
+    border: 3px solid #72f355;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    height: 30px;
+}
+
+.btnAdd{
+    position: relative;
+    display: inline-block;
+    padding: 5px 3px;
+    color: #006414;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.btnAdd:hover{
+    background: rgb(101, 253, 106);
+}
